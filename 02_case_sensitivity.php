@@ -19,6 +19,9 @@ if($val == null) {
     echo "$val is not defined.";
 }
 
+echo "<br>"
+echo 'De waarde van $waarde is ' . $waarde;  
+
 // Print de string "De waarde van $waarde is 3." 
 // door maar 1 keer gebruik te maken v.d. concatenatie-operator
 // en de juiste soort quotes: single (') of double (").
